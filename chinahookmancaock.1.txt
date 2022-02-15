@@ -19,7 +19,7 @@ local library = {
     notifications = {},
     tabSize = 0,
     theme = {},
-    foldername = "nexus",
+    foldername = "Chinahook",
     fileext = ".nx"
 }
 getgenv().library = library
@@ -263,7 +263,7 @@ function library:Chatting(message)
     local MessageTag = Messenger:WaitForChild("Tag")
     local Offset = 5
     Message.Parent = GlobalChat
-    Message.Text = "[nexus]: "
+    Message.Text = "[Chinahook]: "
     Message.TextColor3 = Color3.fromHSV(0.8020, 0.6288, 0.8706)
     Message.Msg.Text = tostring(message)
     Message.Msg.Position = UDim2.new(0, Message.TextBounds.x, 0, 0)
