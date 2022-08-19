@@ -2,7 +2,7 @@ if not syn or not protectgui then
     getgenv().protectgui = function()end
 end
 local Library = loadstring(game:HttpGet('https://lindseyhost.com/UI/LinoriaLib.lua'))()
-Library:SetWatermark("Universal.Cat")
+Library:SetWatermark("nballs")
 Library:Notify('Press Right-CTRL To Toggle The UI')
 Library:Notify('my discord: rpa#5388')
 
